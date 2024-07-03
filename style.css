@@ -77,6 +77,74 @@ body{
     display: block;
     justify-items: center;
 }
+
+
+@media (max-width:480px){
+     .myicons{
+      display: none;
+     }
+     .navbarl{
+      position: relative;
+      width: 100vw;
+      height: 50px;
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+     }
+     .navlist {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+     }
+     .cornerimg{
+    display: none;
+     }
+     .navlist a {
+      padding: 5%;
+      width: 100%;
+      color: whitesmoke;
+      text-decoration: none;
+      flex-grow: 1;
+      
+  }
+  .navlist a:hover{
+    font-size: 2rem;
+  }
+    .responsive, .posterimg{
+     display: none;
+    }
+    .main, .name, .Details{
+     
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+    }
+    .second{
+      display: inline;
+   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .second{
     margin-left: 150px;
     
@@ -159,11 +227,11 @@ body{
 }
 .phowhitebar{
     height: 20px;
-    background-color: #EEEEEE;
+    background-color: whitesmoke;
 }
 .phogreybar{
     height: 20px;
-    background-color: #222831;
+    background-color: grey;
     width: 80%;
 
 }
@@ -171,24 +239,22 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
 }
-.photography , .Web, .photoshop, .Resume{
+.photography , .Web, .photoshop{
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     color: grey;
 }
 .Webgreybar{
     height: 20px;
-    background-color: #222831;
+    background-color: gray;
     width: 70%;
 }
 .Photoshopgreybar{
     height: 20px;
-    background-color: #222831;
+    background-color: gray;
     width: 90%;
 }
-.Photoshopgreybar:hover{
-  background-color: #009FBD;
-}
+
 
 
 img {
@@ -450,6 +516,19 @@ img {
       height: 60px;
       line-height: 60px;
     }
+    .contact-icon{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+    }
+    .contact-text{
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   
   @media screen and (max-width: 569px) {
@@ -492,6 +571,7 @@ img {
   @media screen and (max-width: 410px) {
     .send-button {
       width: 99%;
+
     }
   }
   .section-header{
@@ -506,23 +586,4 @@ img {
   color: whitesmoke;
 
   }
-
-  .resume{
-    margin-top: 25px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    color: whitesmoke;
-    padding: 15px;
-   
-  }
-  .resume-button{
-    margin-top: 25px;
-    display: inline-block;
-    background-color: gray;
-    border: 1px solid grey;
-    padding: 15px;
-  }
-  .resume-button:hover{
-    background-color:#080809;
-
-  }
+  
